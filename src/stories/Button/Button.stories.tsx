@@ -2,7 +2,7 @@
 
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Button from '$styled/Button.component';
+import { Button } from '$styled/index';
 
 const meta: Meta<typeof Button> = {
 	/* 👇 The title prop is optional.
@@ -24,5 +24,5 @@ type Story = StoryObj<typeof Button>;
  * to learn how to use render functions.
  */
 export const Primary: Story = {
-	render: () => <Button variant='primary'>Button</Button>,
+	render: () => <Button variant="primary">Button</Button>,
 };
