@@ -1,0 +1,40 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "react-jsx",
+		"baseUrl": ".",
+		"paths": {
+			"$lib/*": ["src/lib/*"],
+			"$helpers/*": ["src/lib/helpers/*"],
+			"$components/*": ["src/lib/components/*"],
+			"$base/*": ["src/lib/components/base/*"],
+			"$styled/*": ["src/lib/components/styled/*"],
+			"$hooks/*": ["src/lib/hooks/*"],
+			"$scss/*": ["src/lib/scss/*"],
+			"$types/*": ["src/lib/types/*"],
+			"$utils/*": ["src/lib/utils/*"]
+		}
+	},
+	"include": ["src", ".storybook"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}
