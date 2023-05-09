@@ -1,0 +1,31 @@
+.btn {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border-radius: 0.25rem;
+	border: none;
+	color: #fff;
+	background-color: #007bff;
+}
+
+.btn:hover {
+	background-color: #0069d9;
+}
+
+.btn:focus,
+.btn:active {
+	background-color: #0062cc;
+}
+
+.btn:disabled,
+.btn[disabled] {
+	background-color: #6c757d;
+	cursor: not-allowed;
+}
