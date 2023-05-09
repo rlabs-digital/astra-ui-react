@@ -1,7 +1,7 @@
 import { UnStyledButtonProps } from '$types/Button';
-import React from 'react';
+import { FC } from 'react';
 
-const Button: React.FC<UnStyledButtonProps> = ({ children, ...props }): JSX.Element => {
+const Button: FC<UnStyledButtonProps> = ({ children, ...props }): JSX.Element => {
 	return <button {...props}>{children}</button>;
 };
 

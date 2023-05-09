@@ -1,8 +1,8 @@
 {
-	"useTabs": true,
-	"singleQuote": true,
-	"trailingComma": "all",
-	"printWidth": 100,
-	"plugins": ["eslint-plugin-prettier"],
-	"pluginSearchDirs": ["."]
+  "useTabs": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "plugins": ["eslint-plugin-prettier"],
+  "pluginSearchDirs": ["."]
 }
